@@ -1,0 +1,209 @@
+{
+    "contractName": "HelloWorld",
+    "abi": [
+        {
+            "inputs": [],
+            "name": "getMessage",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getMessage\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/learn_project/web3/first_day/contracts/HelloWorld.sol\":\"HelloWorld\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"d:/learn_project/web3/first_day/contracts/HelloWorld.sol\":{\"keccak256\":\"0x50aaf4cae6cf8fba36fe45f11e18fd4f54efb737765c773593415883f7b8db42\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://905f6de40cf760fd53cf3a685cbae02fbe5b97f14d36b5b093b618d6d4769683\",\"dweb:/ipfs/QmS2XDWDyVMKnxkWDMXjigVHfDGKfJt3k4zEqDkExmPdDC\"]}},\"version\":1}",
+    "bytecode": "60c0604052600d60809081526c48656c6c6f2c20576f726c642160981b60a0525f9061002b90826100d7565b50348015610037575f80fd5b50610192565b634e487b7160e01b5f52604160045260245ffd5b600181811c9082168061006557607f821691505b60208210810361008357634e487b7160e01b5f52602260045260245ffd5b50919050565b601f8211156100d2575f81815260208120601f850160051c810160208610156100af5750805b601f850160051c820191505b818110156100ce578281556001016100bb565b5050505b505050565b81516001600160401b038111156100f0576100f061003d565b610104816100fe8454610051565b84610089565b602080601f831160018114610137575f84156101205750858301515b5f19600386901b1c1916600185901b1785556100ce565b5f85815260208120601f198616915b8281101561016557888601518255948401946001909101908401610146565b508582101561018257878501515f19600388901b60f8161c191681555b5050505050600190811b01905550565b6101938061019f5f395ff3fe608060405234801561000f575f80fd5b5060043610610029575f3560e01c8063ce6d41de1461002d575b5f80fd5b61003561004b565b60405161004291906100da565b60405180910390f35b60605f805461005990610125565b80601f016020809104026020016040519081016040528092919081815260200182805461008590610125565b80156100d05780601f106100a7576101008083540402835291602001916100d0565b820191905f5260205f20905b8154815290600101906020018083116100b357829003601f168201915b5050505050905090565b5f6020808352835180828501525f5b81811015610105578581018301518582016040015282016100e9565b505f604082860101526040601f19601f8301168501019250505092915050565b600181811c9082168061013957607f821691505b60208210810361015757634e487b7160e01b5f52602260045260245ffd5b5091905056fea26469706673582212201ac3375041c99c7a930a10c40f076c2fe528bd1d75823a41a00179d86e36280464736f6c63430008150033",
+    "deployedBytecode": "608060405234801561000f575f80fd5b5060043610610029575f3560e01c8063ce6d41de1461002d575b5f80fd5b61003561004b565b60405161004291906100da565b60405180910390f35b60605f805461005990610125565b80601f016020809104026020016040519081016040528092919081815260200182805461008590610125565b80156100d05780601f106100a7576101008083540402835291602001916100d0565b820191905f5260205f20905b8154815290600101906020018083116100b357829003601f168201915b5050505050905090565b5f6020808352835180828501525f5b81811015610105578581018301518582016040015282016100e9565b505f604082860101526040601f19601f8301168501019250505092915050565b600181811c9082168061013957607f821691505b60208210810361015757634e487b7160e01b5f52602260045260245ffd5b5091905056fea26469706673582212201ac3375041c99c7a930a10c40f076c2fe528bd1d75823a41a00179d86e36280464736f6c63430008150033",
+    "sourceMap": "110:40:0:-:0;60:190;110:40;;60:190;110:40;;;-1:-1:-1;;;110:40:0;;-1:-1:-1;;110:40:0;;-1:-1:-1;110:40:0;:::i;:::-;;60:190;;;;;;;;;;;;14:127:1;75:10;70:3;66:20;63:1;56:31;106:4;103:1;96:15;130:4;127:1;120:15;146:380;225:1;221:12;;;;268;;;289:61;;343:4;335:6;331:17;321:27;;289:61;396:2;388:6;385:14;365:18;362:38;359:161;;442:10;437:3;433:20;430:1;423:31;477:4;474:1;467:15;505:4;502:1;495:15;359:161;;146:380;;;:::o;657:545::-;759:2;754:3;751:11;748:448;;;795:1;820:5;816:2;809:17;865:4;861:2;851:19;935:2;923:10;919:19;916:1;912:27;906:4;902:38;971:4;959:10;956:20;953:47;;;-1:-1:-1;994:4:1;953:47;1049:2;1044:3;1040:12;1037:1;1033:20;1027:4;1023:31;1013:41;;1104:82;1122:2;1115:5;1112:13;1104:82;;;1167:17;;;1148:1;1137:13;1104:82;;;1108:3;;;748:448;657:545;;;:::o;1378:1352::-;1498:10;;-1:-1:-1;;;;;1520:30:1;;1517:56;;;1553:18;;:::i;:::-;1582:97;1672:6;1632:38;1664:4;1658:11;1632:38;:::i;:::-;1626:4;1582:97;:::i;:::-;1734:4;;1798:2;1787:14;;1815:1;1810:663;;;;2517:1;2534:6;2531:89;;;-1:-1:-1;2586:19:1;;;2580:26;2531:89;-1:-1:-1;;1335:1:1;1331:11;;;1327:24;1323:29;1313:40;1359:1;1355:11;;;1310:57;2633:81;;1780:944;;1810:663;604:1;597:14;;;641:4;628:18;;-1:-1:-1;;1846:20:1;;;1964:236;1978:7;1975:1;1972:14;1964:236;;;2067:19;;;2061:26;2046:42;;2159:27;;;;2127:1;2115:14;;;;1994:19;;1964:236;;;1968:3;2228:6;2219:7;2216:19;2213:201;;;2289:19;;;2283:26;-1:-1:-1;;2372:1:1;2368:14;;;2384:3;2364:24;2360:37;2356:42;2341:58;2326:74;;2213:201;-1:-1:-1;;;;;2460:1:1;2444:14;;;2440:22;2427:36;;-1:-1:-1;1378:1352:1:o;:::-;60:190:0;;;;;;",
+    "deployedSourceMap": "60:190:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;157:90;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;200:13;232:7;225:14;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;157:90;:::o;14:548:1:-;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;298:3;483:1;478:2;469:6;458:9;454:22;450:31;443:42;553:2;546;542:7;537:2;529:6;525:15;521:29;510:9;506:45;502:54;494:62;;;;14:548;;;;:::o;567:380::-;646:1;642:12;;;;689;;;710:61;;764:4;756:6;752:17;742:27;;710:61;817:2;809:6;806:14;786:18;783:38;780:161;;863:10;858:3;854:20;851:1;844:31;898:4;895:1;888:15;926:4;923:1;916:15;780:161;;567:380;;;:::o",
+    "sourcePath": "d:/learn_project/web3/first_day/contracts/HelloWorld.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.21+commit.d9974bed"
+    },
+    "ast": {
+        "absolutePath": "d:/learn_project/web3/first_day/contracts/HelloWorld.sol",
+        "exportedSymbols": {
+            "HelloWorld": [
+                13
+            ]
+        },
+        "id": 14,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "0.8",
+                    ".21"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "33:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "HelloWorld",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 13,
+                "linearizedBaseContracts": [
+                    13
+                ],
+                "name": "HelloWorld",
+                "nameLocation": "69:10:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "id": 4,
+                        "mutability": "mutable",
+                        "name": "message",
+                        "nameLocation": "125:7:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 13,
+                        "src": "110:40:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string"
+                        },
+                        "typeName": {
+                            "id": 2,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "110:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string"
+                            }
+                        },
+                        "value": {
+                            "hexValue": "48656c6c6f2c20576f726c6421",
+                            "id": 3,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "135:15:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_acaf3289d7b601cbd114fb36c4d29c85bbfd5e133f14cb355c3fd8d99367964f",
+                                "typeString": "literal_string \"Hello, World!\""
+                            },
+                            "value": "Hello, World!"
+                        },
+                        "visibility": "private"
+                    },
+                    {
+                        "body": {
+                            "id": 11,
+                            "nodeType": "Block",
+                            "src": "214:33:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "id": 9,
+                                        "name": "message",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 4,
+                                        "src": "232:7:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage",
+                                            "typeString": "string storage ref"
+                                        }
+                                    },
+                                    "functionReturnParameters": 8,
+                                    "id": 10,
+                                    "nodeType": "Return",
+                                    "src": "225:14:0"
+                                }
+                            ]
+                        },
+                        "functionSelector": "ce6d41de",
+                        "id": 12,
+                        "implemented": true,
+                        "kind": "function",
+                        "modifiers": [],
+                        "name": "getMessage",
+                        "nameLocation": "166:10:0",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 5,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "176:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 8,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 7,
+                                    "mutability": "mutable",
+                                    "name": "",
+                                    "nameLocation": "-1:-1:-1",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 12,
+                                    "src": "200:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "memory",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string"
+                                    },
+                                    "typeName": {
+                                        "id": 6,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "200:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        }
+                                    },
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "199:15:0"
+                        },
+                        "scope": 13,
+                        "src": "157:90:0",
+                        "stateMutability": "view",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 14,
+                "src": "60:190:0",
+                "usedErrors": [],
+                "usedEvents": []
+            }
+        ],
+        "src": "33:217:0"
+    },
+    "functionHashes": {
+        "getMessage()": "ce6d41de"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "80600",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "getMessage()": "infinite"
+        }
+    }
+}
